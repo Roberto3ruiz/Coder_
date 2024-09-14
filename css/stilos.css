@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     background-image: url('/images/np_file_229530.jpeg');
@@ -6,4 +6,288 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+  } */
+  @font-face {
+    font-family: 'Circular Std';
+    src: url('fonts/CircularStd-Regular.woff2') format('woff2'),
+         url('fonts/CircularStd-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('fonts/CircularStd-Bold.woff2') format('woff2'),
+         url('fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Circular Std', sans-serif;
+}
+  
+  .header {
+    background-image: url('/images/np_file_229530.jpeg'); /* Reemplazar con la URL real */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+  }
+  
+
+/* Barra de búsqueda  */
+
+
+
+  .search-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+    position: relative;
+  }
+  
+
+  #location-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: scroll;
+    width: 250px;
+    display: none;
+  }
+  
+  .dropdown li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    background-color: #ff611e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+  .search-container button {
+    background-color: #ff611e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between; /* Distribuye uniformemente las columnas */
+    align-items: center; /* Centra verticalmente */
+    padding: 20px;
+  }
+  
+  .stats > div {
+    text-align: center;
+    width: 30%; /* Cada columna ocupa el 30% del ancho */
+  }
+  
+  .stats p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .stats small {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+
+/* 
+Aqui va la seccion de cards */
+  
+  .cards-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+ /* Estilos para cada tarjeta individual */
+/* Contenedor de las tarjetas */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ajusta el espacio entre las tarjetas */
+  gap: 20px; /* Espaciado entre las tarjetas */
+}
+
+/* Estilos para cada tarjeta individual */
+.card {
+  flex: 0 0 calc(33.333% - 20px); /* Cada tarjeta ocupa un tercio del ancho del contenedor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle estilo */
+  padding: 20px;
+  background-color: white;
+  min-width: 280px; /* Establece un ancho mínimo para evitar que se encoja demasiado */
+}
+
+/* Asegurar que las imágenes dentro de las tarjetas no sean más grandes que la tarjeta */
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  
+  .card button {
+    background-color: #ff611e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+
+/* Para pantallas pequeñas (móviles), puedes hacer que las tarjetas ocupen el 100% del ancho */
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 100%; /* Cada tarjeta ocupará el 100% del ancho en móviles */
+  }
+}
+
+/* 
+  Aqui va el footer */
+
+
+
+ 
+.footer {
+  position: relative; /* Cambiar de fixed a relative */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 0; /* Agrega un poco de espacio alrededor del footer */
+  text-align: center;
+}
+  
+  .footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
   }

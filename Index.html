@@ -1,13 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/stilos.css" />
-    <title>"2nda Entrega"</title>
-</head>
-<body>
-  <script src="js/script.js"></script>
-</body>
+  <head>
+    <!-- META DATA -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--font-family-->
+  
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="/css/stilos.css" />
+
+    <title>"3era Entrega"</title>
+  </head>
+
+  <body>
+    <!-- Header con imagen de fondo -->
+    <header class="header">
+      <div class="header-content">
+        <h1>Carreras en México</h1>
+      </div>
+    </header>
+
+    <!-- Barra de búsqueda -->
+    <section class="search-section">
+      <div class="search-container">
+        <input
+        type="text"
+        id="location-input"
+        placeholder="Escoge el lugar de tu preferencia"
+        autocomplete="off"
+        onfocus="showDropdown()"
+      />
+      <ul id="location-list" class="dropdown">
+        <!-- Opciones de lugares -->
+        <li onclick="selectLocation('Aguascalientes')">Aguascalientes</li>
+        <li onclick="selectLocation('Baja California')">Baja California</li>
+        <li onclick="selectLocation('Baja California Sur')">Baja California Sur</li>
+        <li onclick="selectLocation('Campeche')">Campeche</li>
+        <li onclick="selectLocation('Chiapas')">Chiapas</li>
+        <li onclick="selectLocation('Chihuahua')">Chihuahua</li>
+        <li onclick="selectLocation('Coahuila de Zaragoza')">Coahuila de Zaragoza</li>
+        <li onclick="selectLocation('Colima')">Colima</li>
+        <li onclick="selectLocation('Ciudad de México')">Ciudad de México</li>
+        <li onclick="selectLocation('Durango')">Durango</li>
+        <li onclick="selectLocation('Guanajuato')">Guanajuato</li>
+        <li onclick="selectLocation('Guerrero')">Guerrero</li>
+        <li onclick="selectLocation('Hidalgo')">Hidalgo</li>
+        <li onclick="selectLocation('Jalisco')">Jalisco</li>
+        <li onclick="selectLocation('México')">México</li>
+        <li onclick="selectLocation('Michoacán de Ocampo')">Michoacán de Ocampo</li>
+        <li onclick="selectLocation('Morelos')">Morelos</li>
+        <li onclick="selectLocation('Nayarit')">Nayarit</li>
+        <li onclick="selectLocation('Nuevo León')">Nuevo León</li>
+        <li onclick="selectLocation('Oaxaca')">Oaxaca</li>
+        <li onclick="selectLocation('Puebla')">Puebla</li>
+        <li onclick="selectLocation('Querétaro')">Querétaro</li>
+        <li onclick="selectLocation('Quintana Roo')">Quintana Roo</li>
+        <li onclick="selectLocation('San Luis Potosí')">San Luis Potosí</li>
+        <li onclick="selectLocation('Sinaloa')">Sinaloa</li>
+        <li onclick="selectLocation('Sonora')">Sonora</li>
+        <li onclick="selectLocation('Tabasco')">Tabasco</li>
+        <li onclick="selectLocation('Tamaulipas')">Tamaulipas</li>
+        <li onclick="selectLocation('Tlaxcala')">Tlaxcala</li>
+        <li onclick="selectLocation('Veracruz de Ignacio de la Llave')">Veracruz de Ignacio de la Llave</li>
+        <li onclick="selectLocation('Yucatán')">Yucatán</li>
+        <li onclick="selectLocation('Zacatecas')">Zacatecas</li>
+      </ul>
+      <button id="search-button">Buscar</button>
+      </div>
+    </section>
+
+    <!-- Sección de estadísticas -->
+    <section class="stats-section">
+      <div class="stats">
+        <div class="col1">
+          <p>Más de 1000 carreras</p>
+          <small>registradas cada año en México</small>
+        </div>
+        <div class="col2">
+          <p>Más de 240,000 opiniones</p>
+          <small>de corredores</small>
+        </div>
+        <div class="col3">
+          <p>Más de 48,000 proveedores</p>
+          <small>en nuestro directorio especializado</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de tarjetas -->
+    <section class="cards-section">
+      <div class="cards-container" id="cards-container">
+
+    <!-- Aquí se inyectarán las tarjetas dinámicamente -->
+        
+        <!-- <div class="card">
+          <img src="/images/image-placeholder.jpg" alt="Lugar de México" />
+          <h3>Lugares de México</h3>
+          <p>Chapala, Jalisco</p>
+          <p>Precio: $110,000</p>
+          <p>Distancias:</p>
+          <button>Quiero Información</button>
+        </div> -->
+        <!-- Repite el bloque anterior para más tarjetas -->
+
+        
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="heading">
+        <h2>Roberto<sup>3</sup>RUIZ</h2>
+      </div>
+      <div class="content">
+        <div class="services">
+          <h4>Services</h4>
+          <p><a href="#">App development</a></p>
+          <p><a href="#">Web development</a></p>
+          <p><a href="#">DevOps</a></p>
+          <p><a href="#">Web designing</a></p>
+        </div>
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="#"
+              ><i class="fab fa-linkedin"></i> Linkedin</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/farazc60"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </p>
+          <p>
+            <a href="https://www.facebook.com/codewithfaraz"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </p>
+          <p>
+            <a href="https://www.instagram.com/codewithfaraz"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="#">Home</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Blogs</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Cupiditate, qui!
+          </p>
+          <h4 class="mobile">Mobile</h4>
+          <p><a href="#">+91-12225*****</a></p>
+          <h4 class="mail">Email</h4>
+          <p><a href="#">farazc60@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+    <script defer src="js/script.js" defer></script>
+    <script defer src="js/effects.js" defer></script>
+    <script defer src="js/races.js" defer></script>
+  </body>
 </html>
