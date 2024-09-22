@@ -7,26 +7,66 @@
 
     <!--font-family-->
   
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="/css/stilos.css" />
+    <link rel="stylesheet" type="text/css" href="/css/modal.css" />
+    <link rel="stylesheet" type="text/css" href="/css/video.css" />
 
     <title>"3era Entrega"</title>
   </head>
 
   <body>
     <!-- Header con imagen de fondo -->
-    <header class="header">
+    <!-- <header class="header">
       <div class="header-content">
         <h1>Carreras en México</h1>
       </div>
-    </header>
+    </header> -->
 
-    <!-- Barra de búsqueda -->
-    <section class="search-section">
+
+
+
+ <!-- Sección del carrusel -->
+<section class="carousel-section">
+  <div class="carousel">
+    <div class="carousel-images">
+      <img src="/images/hero-1.jpg" alt="Imagen de carrera en desafío en las nubes" class="carousel-image active" />
+      <img src="/images/hero2.jpg" alt="Imagen 2" class="carousel-image" />
+      <img src="/images/hero3.jpg" alt="Imagen 3" class="carousel-image" />
+    </div>
+    <div class="carousel-text">
+      <p id="carousel-text">Carreras ULTRA en México</p>
+    </div>
+  </div>
+</section>
+
+   
+
+    <!-- Sección de estadísticas -->
+    <section class="stats-section">
+      <div class="stats">
+        <div class="col1">
+          <p>Más de 1000 carreras</p>
+          <small>registradas cada año en México</small>
+        </div>
+        <div class="col2">
+          <p>Más de 240,000 opiniones</p>
+          <small>de corredores</small>
+        </div>
+        <div class="col3">
+          <p>Más de 48,000 proveedores</p>
+          <small>en nuestro directorio especializado</small>
+        </div>
+      </div>
+    </section>
+
+     <!-- Barra de búsqueda -->
+     <section class="search-section">
       <div class="search-container">
         <input
         type="text"
@@ -74,24 +114,8 @@
       </div>
     </section>
 
-    <!-- Sección de estadísticas -->
-    <section class="stats-section">
-      <div class="stats">
-        <div class="col1">
-          <p>Más de 1000 carreras</p>
-          <small>registradas cada año en México</small>
-        </div>
-        <div class="col2">
-          <p>Más de 240,000 opiniones</p>
-          <small>de corredores</small>
-        </div>
-        <div class="col3">
-          <p>Más de 48,000 proveedores</p>
-          <small>en nuestro directorio especializado</small>
-        </div>
-      </div>
-    </section>
 
+    
     <!-- Sección de tarjetas -->
     <section class="cards-section">
       <div class="cards-container" id="cards-container">
@@ -111,6 +135,25 @@
         
       </div>
     </section>
+
+
+<!-- Modal para mostrar la información de la carrera -->
+<div id="raceModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe id="raceVideo"
+     width="560" 
+    height="315" src="https://www.youtube.com/embed/VYw1U8ezyFI?si=cDtV5iWDPHtAX3vj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h2 id="nombreCarrera">Nombre de la carrera</h2>
+    <p id="fechaCarrera">Fecha</p>
+    <p id="distanciasCarrera">Distancias</p>
+    <h3 id="diasFaltantes">Aquí van los días restantes para la carrera</h3>
+    <button id="">Inscribirme</button>
+  </div>
+</div>
+
+
+    
 
     <!-- footer -->
     <div class="footer">
@@ -172,8 +215,11 @@
         </div>
       </div>
       <footer>
-    <script defer src="js/script.js" defer></script>
-    <script defer src="js/effects.js" defer></script>
-    <script defer src="js/races.js" defer></script>
+        <script src="/js/carrusel.js" defer></script>
+        <script src="/js/modal.js" defer></script>
+        <script src="/js/script.js" defer></script>
+        <script src="js/effects.js" defer></script>
+        <script src="js/races.js" defer></script>
+        <script src="js/search.js" defer></script>
   </body>
 </html>

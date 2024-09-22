@@ -6,7 +6,8 @@ const eventosDeportivos = [
     distancias: ["25km, 42km, 75km, 100km"],
     lugar: "Santiago",
     estado: "Nuevo León",
-    fecha: new Date(2024, 1, 13),
+    fecha: new Date(2025, 1, 13),
+    videoUrl: "https://www.youtube.com/embed/zVW5NxU9PqY?si=MhCdOHZTpJGYfz3Y",
   },
   {
     id: 2,
@@ -15,7 +16,7 @@ const eventosDeportivos = [
     distancias: ["5km"],
     lugar: "Xallitic",
     estado: "Veracruz",
-    fecha: new Date(2024, 1, 13),
+    fecha: new Date(2025, 1, 13),
   },
   {
     id: 3,
@@ -24,7 +25,7 @@ const eventosDeportivos = [
     distancias: ["14km, 26km"],
     lugar: "Villa del Carbón",
     estado: "Edo. De México",
-    fecha: new Date(2024, 1, 14),
+    fecha: new Date(2025, 1, 14),
   },
   {
     id: 4,
@@ -33,7 +34,7 @@ const eventosDeportivos = [
     distancias: ["11km, 5km, 21km"],
     lugar: " Pahuatlán",
     estado: "Puebla",
-    fecha: new Date(2024, 1, 20),
+    fecha: new Date(2025, 1, 20),
   },
   {
     id: 5,
@@ -42,7 +43,7 @@ const eventosDeportivos = [
     distancias: ["15km, 30km, 60km"],
     lugar: "Huauchinango",
     estado: "Puebla",
-    fecha: new Date(2024, 1, 26),
+    fecha: new Date(2025, 1, 26),
   },
   {
     id: 6,
@@ -51,7 +52,7 @@ const eventosDeportivos = [
     distancias: ["25km"],
     lugar: "San Rafael",
     estado: "Estado de México",
-    fecha: new Date(2024, 1, 28),
+    fecha: new Date(2025, 1, 28),
   },
   {
     id: 7,
@@ -60,7 +61,7 @@ const eventosDeportivos = [
     distancias: ["13km, 30km"],
     lugar: "Mexicali",
     estado: "Baja California",
-    fecha: new Date(2024, 1, 28),
+    fecha: new Date(2025, 1, 28),
   },
   {
     id: 8,
@@ -69,7 +70,7 @@ const eventosDeportivos = [
     distancias: ["10km, 21km"],
     lugar: "Tenacatita",
     estado: "Jalisco",
-    fecha: new Date(2024, 2, 4),
+    fecha: new Date(2025, 2, 4),
   },
   {
     id: 9,
@@ -78,7 +79,7 @@ const eventosDeportivos = [
     distancias: ["5km, 10km, 21km"],
     lugar: "Morelia",
     estado: "Michoacán",
-    fecha: new Date(2024, 2, 11),
+    fecha: new Date(2025, 2, 11),
   },
   {
     id: 10,
@@ -87,7 +88,7 @@ const eventosDeportivos = [
     distancias: ["13km, 22km, 37km, 48km"],
     lugar: "Xicotepec",
     estado: "Puebla",
-    fecha: new Date(2024, 2, 17),
+    fecha: new Date(2025, 2, 17),
   },
   {
     id: 11,
@@ -96,7 +97,7 @@ const eventosDeportivos = [
     distancias: ["8km, 13km, 19km, 25km"],
     lugar: "San Joaquín",
     estado: "Querétaro",
-    fecha: new Date(2024, 2, 24),
+    fecha: new Date(2025, 2, 24),
   },
   {
     id: 12,
@@ -105,7 +106,7 @@ const eventosDeportivos = [
     distancias: ["10km, 13km"],
     lugar: "Malinche",
     estado: "Tlaxcala",
-    fecha: new Date(2024, 2, 25),
+    fecha: new Date(2025, 2, 25),
   },
   {
     id: 13,
@@ -114,7 +115,7 @@ const eventosDeportivos = [
     distancias: ["7km, 13km, 23km"],
     lugar: "Huachinango",
     estado: "Puebla",
-    fecha: new Date(2024, 3, 1),
+    fecha: new Date(2025, 3, 1),
   },
   {
     id: 14,
@@ -123,7 +124,7 @@ const eventosDeportivos = [
     distancias: ["6km, 17km, 30km, 50km"],
     lugar: "Bosque de la primavera",
     estado: "Jalisco",
-    fecha: new Date(2024, 3, 2),
+    fecha: new Date(2025, 3, 2),
   },
   {
     id: 15,
@@ -132,7 +133,7 @@ const eventosDeportivos = [
     distancias: ["21km, 42km, 80km"],
     lugar: "Urique",
     estado: "Chihuahua",
-    fecha: new Date(2024, 3, 3),
+    fecha: new Date(2025, 3, 3),
   },
   {
     id: 16,
@@ -141,7 +142,7 @@ const eventosDeportivos = [
     distancias: ["6km, 12km, 21km"],
     lugar: "Villa del Carbón",
     estado: "Estado de México",
-    fecha: new Date(2024, 3, 10),
+    fecha: new Date(2025, 3, 10),
   },
   {
     id: 17,
@@ -150,7 +151,7 @@ const eventosDeportivos = [
     distancias: ["5km, 10km"],
     lugar: "Puebla",
     estado: "Puebla",
-    fecha: new Date(2024, 3, 16),
+    fecha: new Date(2025, 3, 16),
   },
   {
     id: 18,
@@ -159,7 +160,7 @@ const eventosDeportivos = [
     distancias: ["30km, 50km"],
     lugar: "Tijuana",
     estado: "Baja California",
-    fecha: new Date(2024, 3, 17),
+    fecha: new Date(2025, 3, 17),
   },
   {
     id: 19,
@@ -168,7 +169,7 @@ const eventosDeportivos = [
     distancias: ["105km, 75km, 12km, 55km"],
     lugar: "Pico de Orizaba",
     estado: "Veracruz",
-    fecha: new Date(2024, 3, 22),
+    fecha: new Date(2025, 3, 22),
   },
   {
     id: 20,
@@ -177,7 +178,7 @@ const eventosDeportivos = [
     distancias: ["21km, 15km, 42km"],
     lugar: "Chignahuapan",
     estado: "Puebla",
-    fecha: new Date(2024, 3, 29),
+    fecha: new Date(2025, 3, 29),
   },
   {
     id: 21,
@@ -186,7 +187,7 @@ const eventosDeportivos = [
     distancias: ["9km, 15km, 28km, 43km"],
     lugar: "Zacatlan",
     estado: "Puebla",
-    fecha: new Date(2024, 4, 13),
+    fecha: new Date(2025, 4, 13),
   },
   {
     id: 22,
@@ -195,7 +196,7 @@ const eventosDeportivos = [
     distancias: ["9km, 17km, 32km, 55km"],
     lugar: "méxico",
     estado: "Estado de México",
-    fecha: new Date(2024, 4, 13),
+    fecha: new Date(2025, 4, 13),
   },
   {
     id: 23,
@@ -204,7 +205,7 @@ const eventosDeportivos = [
     distancias: ["15km, 30km, 50km"],
     lugar: "Tlatlauquitepec",
     estado: "Puebla",
-    fecha: new Date(2024, 4, 26),
+    fecha: new Date(2025, 4, 26),
   },
   {
     id: 24,
@@ -213,7 +214,7 @@ const eventosDeportivos = [
     distancias: ["5km, 10km"],
     lugar: "San Luis Potosí",
     estado: "San Luis Potosí",
-    fecha: new Date(2024, 5, 4),
+    fecha: new Date(2025, 5, 4),
   },
   {
     id: 25,
@@ -222,7 +223,7 @@ const eventosDeportivos = [
     distancias: ["5km,15km, 30km, 65km, 120km"],
     lugar: "Tepatlaxco",
     estado: "Veracruz",
-    fecha: new Date(2024, 5, 11),
+    fecha: new Date(2025, 5, 11),
   },
   {
     id: 26,
@@ -231,7 +232,7 @@ const eventosDeportivos = [
     distancias: ["50km, 100km, 160km"],
     lugar: "Villa del Carbón",
     estado: "Estado de México",
-    fecha: new Date(2024, 5, 18),
+    fecha: new Date(2025, 5, 18),
   },
   {
     id: 27,
@@ -240,7 +241,7 @@ const eventosDeportivos = [
     distancias: ["6km, 14km, 24km, 35km"],
     lugar: "Orizaba",
     estado: "Veracruz",
-    fecha: new Date(2024, 5, 24),
+    fecha: new Date(2025, 5, 24),
   },
   {
     id: 28,
@@ -249,7 +250,7 @@ const eventosDeportivos = [
     distancias: ["14km, 6km, 21km"],
     lugar: "temascalcingo",
     estado: "Querétaro",
-    fecha: new Date(2024, 5, 26),
+    fecha: new Date(2025, 5, 26),
   },
   {
     id: 29,
@@ -258,7 +259,7 @@ const eventosDeportivos = [
     distancias: ["12km, 30km"],
     lugar: "San Matero Tlapiltepec",
     estado: "Oaxaca",
-    fecha: new Date(2024, 6, 10),
+    fecha: new Date(2025, 6, 10),
   },
   {
     id: 30,
@@ -267,7 +268,7 @@ const eventosDeportivos = [
     distancias: ["7km, 18km, 60km, 35km"],
     lugar: "Coatepec",
     estado: "Veracruz",
-    fecha: new Date(2024, 6, 16),
+    fecha: new Date(2025, 6, 16),
   },
   {
     id: 31,
@@ -276,7 +277,7 @@ const eventosDeportivos = [
     distancias: ["5km, 10km, 15km, 21km"],
     lugar: "Peña de Bernal",
     estado: "Querétaro",
-    fecha: new Date(2024, 6, 22),
+    fecha: new Date(2025, 6, 22),
   },
   {
     id: 32,
@@ -285,7 +286,7 @@ const eventosDeportivos = [
     distancias: ["10km, 20km, 35km"],
     lugar: "Amanalco",
     estado: "Estado de México",
-    fecha: new Date(2024, 6, 27),
+    fecha: new Date(2025, 6, 27),
   },
   {
     id: 33,
@@ -294,7 +295,7 @@ const eventosDeportivos = [
     distancias: ["5km, 10km, 16km, 25km"],
     lugar: "Mineral del Chico",
     estado: "Hidalgo",
-    fecha: new Date(2024, 7, 6),
+    fecha: new Date(2025, 7, 6),
   },
   {
     id: 34,
@@ -303,7 +304,7 @@ const eventosDeportivos = [
     distancias: ["15km, 8km, 41km, 60km"],
     lugar: "Tequila",
     estado: "Jalisco",
-    fecha: new Date(2024, 7, 6),
+    fecha: new Date(2025, 7, 6),
   },
   {
     id: 35,
@@ -312,7 +313,7 @@ const eventosDeportivos = [
     distancias: ["12km, 30km, 83km, 50km, 100km, 163km"],
     lugar: "Arteaga",
     estado: "Cohahuila",
-    fecha: new Date(2024, 7, 12),
+    fecha: new Date(2025, 7, 12),
   },
   {
     id: 36,
@@ -321,7 +322,7 @@ const eventosDeportivos = [
     distancias: ["8km, 11km, 15km, 22km"],
     lugar: "Cadereyta",
     estado: "Querétaro",
-    fecha: new Date(2024, 8, 10),
+    fecha: new Date(2025, 8, 10),
   },
   {
     id: 37,
@@ -330,7 +331,7 @@ const eventosDeportivos = [
     distancias: ["8km, 18km, 30km"],
     lugar: "Amealco",
     estado: "Querétaro",
-    fecha: new Date(2024, 8, 18),
+    fecha: new Date(2025, 8, 18),
   },
   {
     id: 38,
@@ -339,7 +340,7 @@ const eventosDeportivos = [
     distancias: ["10km, 21km, 35km"],
     lugar: "Ajusco",
     estado: "CDMX",
-    fecha: new Date(2024, 8, 30),
+    fecha: new Date(2025, 8, 30),
   },
   {
     id: 39,
@@ -348,7 +349,7 @@ const eventosDeportivos = [
     distancias: ["12km, 20km, 40km, 80km"],
     lugar: "Sierra de las Navajas",
     estado: "Hidalgo",
-    fecha: new Date(2024, 9, 6),
+    fecha: new Date(2025, 9, 6),
   },
   {
     id: 40,
@@ -357,7 +358,7 @@ const eventosDeportivos = [
     distancias: ["21km, 10km, 5km"],
     lugar: "Ajusco",
     estado: "CDMX",
-    fecha: new Date(2024, 9, 7),
+    fecha: new Date(2025, 9, 7),
   },
   {
     id: 41,
@@ -366,7 +367,7 @@ const eventosDeportivos = [
     distancias: ["10km, 6km, 15km, 30km, 50km"],
     lugar: "Tapalpa",
     estado: "Jalisco",
-    fecha: new Date(2024, 9, 20),
+    fecha: new Date(2025, 9, 20),
   },
   {
     id: 42,
@@ -375,7 +376,7 @@ const eventosDeportivos = [
     distancias: ["5km, 12km, 17km, 25km"],
     lugar: "Ixtapa Zihuatanejo",
     estado: "Guerrero",
-    fecha: new Date(2024, 9, 28),
+    fecha: new Date(2025, 9, 28),
   },
   {
     id: 43,
@@ -384,7 +385,7 @@ const eventosDeportivos = [
     distancias: ["6km, 10km, 16km, 23km"],
     lugar: "Tequisquiapán",
     estado: "Querétaro",
-    fecha: new Date(2024, 10, 20),
+    fecha: new Date(2025, 10, 20),
   },
   {
     id: 44,
@@ -393,7 +394,7 @@ const eventosDeportivos = [
     distancias: ["10km, 21km"],
     lugar: "Ajusco",
     estado: "CDMX",
-    fecha: new Date(2024, 10, 26),
+    fecha: new Date(2025, 10, 26),
   },
   {
     id: 45,
@@ -402,7 +403,7 @@ const eventosDeportivos = [
     distancias: ["10km, 20km"],
     lugar: "El Zembo",
     estado: "Hidalgo",
-    fecha: new Date(2024, 10, 26),
+    fecha: new Date(2025, 10, 26),
   },
   {
     id: 46,
@@ -411,7 +412,7 @@ const eventosDeportivos = [
     distancias: ["21km, 10km, 5km"],
     lugar: "la marquesa",
     estado: "Estado de México",
-    fecha: new Date(2024, 11, 10),
+    fecha: new Date(2025, 11, 10),
   },
   {
     id: 47,
@@ -420,7 +421,7 @@ const eventosDeportivos = [
     distancias: ["2km"],
     lugar: "Puebla",
     estado: "Puebla",
-    fecha: new Date(2024, 12, 1),
+    fecha: new Date(2025, 12, 1),
   },
   {
     id: 48,
@@ -429,6 +430,6 @@ const eventosDeportivos = [
     distancias: ["5km, 10km"],
     lugar: "Campeche",
     estado: "Campeche",
-    fecha: new Date(2024, 12, 10),
+    fecha: new Date(2025, 12, 10),
   },
 ];

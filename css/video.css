@@ -1,0 +1,42 @@
+/* Estilos para el video */
+#raceVideo {
+    display: block;
+    width: 70%; /* El video ocupa el 70% del ancho del modal */
+    margin: 0 auto; /* Centra el video horizontalmente */
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para el botón de cierre (la "x") */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Estilo al pasar el cursor sobre la "x" */
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+  }
+  
+  /* Estilos para los textos */
+  h2, p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Estilo responsivo para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .modal-content {
+      width: 95%;
+    }
+  
+    #raceVideo {
+      width: 90%; /* El video ocupará más espacio en pantallas pequeñas */
+    }
+  }

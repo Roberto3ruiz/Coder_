@@ -1,57 +1,84 @@
-/* body {
-    margin: 0;
-    padding: 0;
-    background-image: url('/images/np_file_229530.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  } */
-  @font-face {
-    font-family: 'Circular Std';
-    src: url('fonts/CircularStd-Regular.woff2') format('woff2'),
-         url('fonts/CircularStd-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-@font-face {
-    font-family: 'Circular Std';
-    src: url('fonts/CircularStd-Bold.woff2') format('woff2'),
-         url('fonts/CircularStd-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 
-  }
-  
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; /* Ajusta el peso de la fuente según tu necesidad */
+  font-style: normal;
+  font-variation-settings: "wdth" 100; /* Ajusta el ancho de la fuente si es necesario */
+}
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Circular Std', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; /* Puedes ajustar el peso según tus necesidades */
+  font-style: normal; /* Puedes ajustar el estilo si es necesario */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita que haya scroll horizontal no deseado */
+  }
+
+ul {
+    list-style: none; /* Elimina los puntos */
+    margin: 0;        /* Elimina el margen por defecto */
+    padding: 0;       /* Elimina el relleno por defecto */
 }
+
+li {
+    margin: 0;        /* Asegura que los elementos de la lista no tengan margen */
+    padding: 0;       /* Asegura que los elementos no tengan relleno */
+}
+
   
-  .header {
-    background-image: url('/images/np_file_229530.jpeg'); /* Reemplazar con la URL real */
-    background-size: cover;
-    background-position: center;
-    height: 500px;
+  .carousel-section {
+    width: 100%;
+    height: 800px; /* Ajusta la altura según necesites */
     position: relative;
+    overflow: hidden;
   }
   
-  .header-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .carousel {
+    position: relative;
+    width: 100%;
     height: 100%;
-    color: white;
   }
   
+  .carousel-images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-image.active {
+    opacity: 1;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+
+
+
+
+
+
+
 
 /* Barra de búsqueda  */
 
@@ -84,7 +111,7 @@ body {
   
   .dropdown {
     position: absolute;
-    top: 40px;
+    top: 40px; /* Mantén esta propiedad para posicionar el dropdown debajo del input */
     left: 0;
     background-color: white;
     border: 1px solid #ccc;
@@ -93,7 +120,8 @@ body {
     overflow-y: scroll;
     width: 250px;
     display: none;
-  }
+    z-index: 1000; /* Asegura que el dropdown esté por encima de otros elementos */
+}
   
   .dropdown li {
     padding: 10px;
@@ -291,3 +319,7 @@ Aqui va la seccion de cards */
       position: unset;
     }
   }
+
+
+
+
