@@ -1,13 +1,21 @@
+// Función para convertir "dd/mm/yyyy" a objeto Date
+function parseDate(fechaString) {
+  const [day, month, year] = fechaString.split("/");
+  return new Date(`${year}-${month}-${day}`);
+}
+
 // Función para renderizar tarjetas
 function renderCards(eventos) {
   const container = document.getElementById("cards-container");
-  container.innerHTML = ""; // Limpiar el contenedor antes de agregar nuevas tarjetas
+  container.innerHTML = "";
 
+  // No se encontraron carreras
   if (eventos.length === 0) {
     container.innerHTML = `
       <div class="no-events">
+      <h3>No se encontraron eventos en esta ubicación.</h3>
         <img src="/images/no-races.jpg" alt="No se encontraron eventos" class="no-events-img" />
-        <p>No se encontraron eventos en esta ubicación.</p>
+        
       </div>
     `;
     return;
@@ -37,3 +45,35 @@ function renderCards(eventos) {
     });
   });
 }
+
+// Fetch inicial para obtener todos los eventos (opcional para caché)
+let allEvents = [];
+fetch("/data/races.json")
+  .then((response) => response.json())
+  .then((data) => {
+    allEvents = data.map((evento) => ({
+      ...evento,
+      fecha: parseDate(evento.fecha),
+    }));
+  })
+  .catch((error) =>
+    console.error("Error al cargar los datos iniciales:", error)
+  );
+
+// Función de búsqueda y renderizado
+function searchAndRender(locationInput) {
+  const filteredEvents = allEvents.filter(
+    (evento) =>
+      evento.lugar.toLowerCase() === locationInput ||
+      evento.estado.toLowerCase() === locationInput
+  );
+  renderCards(filteredEvents);
+}
+
+// Escuchador de eventos para el botón de búsqueda
+document.getElementById("search-button").addEventListener("click", () => {
+  const locationInput = document
+    .getElementById("location-input")
+    .value.toLowerCase();
+  searchAndRender(locationInput);
+});

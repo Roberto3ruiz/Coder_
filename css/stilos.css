@@ -27,7 +27,102 @@ li {
     padding: 0;       /* Asegura que los elementos no tengan relleno */
 }
 
-  
+
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #ccc;
+  height: 100px;
+}
+
+.logo img {
+  width: 280px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.login a {
+  background-color: #ff7b00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.login a:hover {
+  background-color: #b30000;
+}
+
+/* Estilos para el menú hamburguesa */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px;
+}
+
+/* Media queries para hacer el navbar responsivo */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f9fa;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+  }
+
+  .nav-links li {
+    margin: 20px 0;
+  }
+
+  .nav-links.active {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+
+/* Section Hero - Carrusel  */
+
+
+
   .carousel-section {
     width: 100%;
     height: 800px; /* Ajusta la altura según necesites */
@@ -235,8 +330,8 @@ Aqui va la seccion de cards */
   }
 }
 
-/* 
-  Aqui va el footer */
+ 
+/* Aqui va el footer */
 
 
 
@@ -295,6 +390,8 @@ Aqui va la seccion de cards */
     margin: 2rem 0;
   }
   
+
+
   @media (max-width: 767px) {
     .footer .content {
       display: flex;

@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ultra Trail Oso Negro",
+    "tipo": "Carrera",
+    "distancias": ["25km, 42km, 75km, 100km"],
+    "lugar": "Santiago",
+    "estado": "Nuevo León",
+    "fecha": "13/02/2025",
+    "videoUrl": "https://www.youtube.com/embed/zVW5NxU9PqY?si=MhCdOHZTpJGYfz3Y"
+  },
+  {
+    "id": 2,
+    "nombre": "Trail Urbano Xalapa",
+    "tipo": "Carrera",
+    "distancias": ["5km"],
+    "lugar": "Xallitic",
+    "estado": "Veracruz",
+    "fecha": "13/01/2025",
+    "videoUrl": "https://www.youtube.com/embed/tv9OiVkdx0w?si=fqaShYOWo5Nak-nH"
+  },
+  {
+    "id": 3,
+    "nombre": "Trail Villa del Carbón",
+    "tipo": "Carrera",
+    "distancias": ["14km, 26km"],
+    "lugar": "Villa del Carbón",
+    "estado": "Edo. De México",
+    "fecha": "14/1/2025",
+    "videoUrl": "https://www.youtube.com/embed/UAbg3I-ffLg?si=C8XLSDUj6nLL-egh"
+  },
+  {
+    "id": 4,
+    "nombre": "Trail Pahuatlán",
+    "tipo": "Carrera",
+    "distancias": ["11km, 5km, 21km"],
+    "lugar": " Pahuatlán",
+    "estado": "Puebla",
+    "fecha": "20/1/2025",
+    "videoUrl":"https://www.youtube.com/embed/5C0uve3KvuY?si=v3VjMJ0Lnt2NyUhj" 
+  },
+  {
+    "id": 5,
+    "nombre": "Ultra Huachi",
+    "tipo": "Carrera",
+    "distancias": ["15km, 30km, 60km"],
+    "lugar": "Huauchinango",
+    "estado": "Puebla",
+    "fecha": "26/1/2025",
+    "videoUrl":"https://www.youtube.com/embed/OojTz7l-GKI?si=Lk0CwP-sFY8EJ2Sr" 
+  },
+  {
+    "id": 6,
+    "nombre": "IZTA 4,000 Solo Para Salvajes",
+    "tipo": "Carrera",
+    "distancias": ["25km"],
+    "lugar": "San Rafael",
+    "estado": "Estado de México",
+    "fecha": "28/1/2025",
+    "videoUrl":"https://www.youtube.com/embed/j81jWLXfUNw?si=8guXLlr5EcyrvMSF" 
+  },
+  {
+    "id": 7,
+    "nombre": "Mexicali Desert Trail",
+    "tipo": "Carrera",
+    "distancias": ["13km, 30km"],
+    "lugar": "Mexicali",
+    "estado": "Baja California",
+    "fecha": "28/1/2025",
+    "videoUrl":"https://www.youtube.com/embed/wCm4h3BNwT8?si=uRdTjE6_HSe3uZLo"
+  },
+  {
+    "id": 8,
+    "nombre": "Tenacatitatrail",
+    "tipo": "Carrera",
+    "distancias": ["10km, 21km"],
+    "lugar": "Tenacatita",
+    "estado": "Jalisco",
+    "fecha": "4/2/2025",
+    "videoUrl":"https://www.youtube.com/embed/M6CtXaStUsA?si=3s8ZxDqLFQllAdyD"
+  },
+  {
+    "id": 9,
+    "nombre": "Trail Run Morelia",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km, 21km"],
+    "lugar": "Morelia",
+    "estado": "Michoacán",
+    "fecha": "11/2/2025",
+    "videoUrl":"https://www.youtube.com/embed/NRiuRIPX3RY?si=UvXXmEh-sw-gInjB"
+  },
+  {
+    "id": 10,
+    "nombre": "Desafio de las nubes, GOLDEN TRAIL SERIES MÉXICO",
+    "tipo": "Carrera",
+    "distancias": ["13km, 22km, 37km, 48km"],
+    "lugar": "Xicotepec",
+    "estado": "Puebla",
+    "fecha": "17/2/2025",
+    "videoUrl":"https://www.youtube.com/embed/tRN7NPz8f6Q?si=3oMZuzLZw_ZXK4AH"
+  },
+  {
+    "id": 11,
+    "nombre": "Xtrail San Joaquín",
+    "tipo": "Carrera",
+    "distancias": ["8km, 13km, 19km, 25km"],
+    "lugar": "San Joaquín",
+    "estado": "Querétaro",
+    "fecha": "24/2/2025",
+    "videoUrl":"https://www.youtube.com/embed/OmkO2HC51TQ?si=xZy5cvbkJacgF63n"
+  },
+  {
+    "id": 12,
+    "nombre": "Sky Malinche FINAL TRIPLE CORONA",
+    "tipo": "Carrera",
+    "distancias": ["10km, 13km"],
+    "lugar": "Malinche",
+    "estado": "Tlaxcala",
+    "fecha": "25/2/2025",
+    "videoUrl":"https://www.youtube.com/embed/9k9VROSTMmM?si=LdAx_wi2IglLkuDU" 
+    },
+  {
+    "id": 13,
+    "nombre": "Niebla Trail",
+    "tipo": "Carrera",
+    "distancias": ["7km, 13km, 23km"],
+    "lugar": "Huachinango",
+    "estado": "Puebla",
+    "fecha": "1/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/BKeeYZ4WiFc?si=u-caL0HWAmFdBYVX"
+  },
+  {
+    "id": 14,
+    "nombre": "Ultra Primavera",
+    "tipo": "Carrera",
+    "distancias": ["6km, 17km, 30km, 50km"],
+    "lugar": "Bosque de la primavera",
+    "estado": "Jalisco",
+    "fecha": "2/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/14uKEXX_xfA?si=sPLcBHdp9zf5z3ci"
+  },
+  {
+    "id": 15,
+    "nombre": "Ultra Maraton Caballo Blanco",
+    "tipo": "Carrera",
+    "distancias": ["21km, 42km, 80km"],
+    "lugar": "Urique",
+    "estado": "Chihuahua",
+    "fecha": "3/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/955esa0GYF0?si=FS5SNB1UOqVBJNUH"
+  },
+  {
+    "id": 16,
+    "nombre": "Villa del Carbón trail Series Pueblos Mágicos",
+    "tipo": "Carrera",
+    "distancias": ["6km, 12km, 21km"],
+    "lugar": "Villa del Carbón",
+    "estado": "Estado de México",
+    "fecha": "10/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/--fDdJO3Hnk?si=D1iVOTkw179fIQ42"
+  },
+  {
+    "id": 17,
+    "nombre": "Spartan Trail Puebla",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km"],
+    "lugar": "Puebla",
+    "estado": "Puebla",
+    "fecha": "16/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/7FRrolEsaRQ?si=dMTHkIC8vDY00ar8"
+  },
+  {
+    "id": 18,
+    "nombre": "UBT ULTRAMARATON Baja Trail",
+    "tipo": "Carrera",
+    "distancias": ["30km, 50km"],
+    "lugar": "Tijuana",
+    "estado": "Baja California",
+    "fecha": "17/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/KiNOSaVi31I?si=9-jb90zlm-VF5YjJ"
+  },
+  {
+    "id": 19,
+    "nombre": "UMAM Ultra Maratón de las Altas Montañas",
+    "tipo": "Carrera",
+    "distancias": ["105km, 75km, 12km, 55km"],
+    "lugar": "Pico de Orizaba",
+    "estado": "Veracruz",
+    "fecha": "22/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/YyKuT08JCP4?si=d6_D8ct-JXwrVzlL"
+  },
+  {
+    "id": 20,
+    "nombre": "Trail Marathon Chignahuapan",
+    "tipo": "Carrera",
+    "distancias": ["21km, 15km, 42km"],
+    "lugar": "Chignahuapan",
+    "estado": "Puebla",
+    "fecha": "29/3/2025",
+    "videoUrl":"https://www.youtube.com/embed/duqz7OoqHNI?si=i9x1jylo8RFMIWzg"
+  },
+  {
+    "id": 21,
+    "nombre": "Trail Marathon Zacatlán",
+    "tipo": "Carrera",
+    "distancias": ["9km, 15km, 28km, 43km"],
+    "lugar": "Zacatlan",
+    "estado": "Puebla",
+    "fecha": "13/4/2025",
+    "videoUrl":"https://www.youtube.com/embed/Hupy3CW7cyE?si=OlET3MoTAVCIYW4-" 
+  },
+  {
+    "id": 22,
+    "nombre": "Ultra Otomí",
+    "tipo": "Carrera",
+    "distancias": ["9km, 17km, 32km, 55km"],
+    "lugar": "méxico",
+    "estado": "Estado de México",
+    "fecha": "13/4/2025",
+    "videoUrl":"https://www.youtube.com/embed/HPlFL1BrphU?si=f1bT3erFlc8CVYjt"
+  },
+  {
+    "id": 23,
+    "nombre": "Cerro rojo Ultra trail",
+    "tipo": "Carrera",
+    "distancias": ["15km, 30km, 50km"],
+    "lugar": "Tlatlauquitepec",
+    "estado": "Puebla",
+    "fecha": "26/4/2025",
+    "videoUrl":"https://www.youtube.com/embed/jSQsFepwRu8?si=emxLtqvCfk53sz2y"
+  },
+  {
+    "id": 24,
+    "nombre": "Spartan Trail San Luis",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km"],
+    "lugar": "San Luis Potosí",
+    "estado": "San Luis Potosí",
+    "fecha": "4/5/2025",
+    "videoUrl":"https://www.youtube.com/embed/gI7f0pEic24?si=dArmrcV8icB5bHIm"
+  },
+  {
+    "id": 25,
+    "nombre": "Aztek Race México",
+    "tipo": "Carrera",
+    "distancias": ["5km,15km, 30km, 65km, 120km"],
+    "lugar": "Tepatlaxco",
+    "estado": "Veracruz",
+    "fecha": "11/5/2025",
+    "videoUrl":"https://www.youtube.com/embed/BalXBpwktkc?si=xDq7w09cOTSIXyfc" 
+  },
+  {
+    "id": 26,
+    "nombre": "Travesia de la Sierras",
+    "tipo": "Carrera",
+    "distancias": ["50km, 100km, 160km"],
+    "lugar": "Villa del Carbón",
+    "estado": "Estado de México",
+    "fecha": "18/5/2025",
+    "videoUrl":"https://www.youtube.com/embed/xz7xa7Dwdb8?si=xdZIGKOKseASRgGv"
+  },
+  {
+    "id": 27,
+    "nombre": "México Sky Challenge Orizaba",
+    "tipo": "Carrera",
+    "distancias": ["6km, 14km, 24km, 35km"],
+    "lugar": "Orizaba",
+    "estado": "Veracruz",
+    "fecha": "24/5/2025",
+    "videoUrl":"https://www.youtube.com/embed/-7iaSdGwCK4?si=cEIEnuokjpFrv3yr" 
+  },
+  {
+    "id": 28,
+    "nombre": "De Corpus Temascalcingo",
+    "tipo": "Carrera",
+    "distancias": ["14km, 6km, 21km"],
+    "lugar": "temascalcingo",
+    "estado": "Querétaro",
+    "fecha": "26/5/2025",
+    "videoUrl":"https://www.youtube.com/embed/t3MW15n0f6I?si=dz7_NqPLL1yOKEVq"
+  },
+  {
+    "id": 29,
+    "nombre": "Trail de la mixteca Oaxaqueña GOLDEN TRAIL SERIES MEXICO",
+    "tipo": "Carrera",
+    "distancias": ["12km, 30km"],
+    "lugar": "San Matero Tlapiltepec",
+    "estado": "Oaxaca",
+    "fecha": "10/6/2025",
+    "videoUrl":"https://www.youtube.com/embed/FVZaQKhYG-4?si=ykR3boJCkMQ5XyMI" 
+  },
+  {
+    "id": 30,
+    "nombre": "Ultratrail del Tenate",
+    "tipo": "Carrera",
+    "distancias": ["7km, 18km, 60km, 35km"],
+    "lugar": "Coatepec",
+    "estado": "Veracruz",
+    "fecha": "16/6/2025",
+    "videoUrl":"https://www.youtube.com/embed/I6v5g5uB3z4?si=DRW6zZDcRKfiaDj6"
+  },
+  {
+    "id": 31,
+    "nombre": "Bernal Viñedos",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km, 15km, 21km"],
+    "lugar": "Peña de Bernal",
+    "estado": "Querétaro",
+    "fecha": "22/6/2025",
+    "videoUrl":"https://www.youtube.com/embed/HbTUPGU-cpA?si=nEe_wfq97XIiQZCz"
+  },
+  {
+    "id": 32,
+    "nombre": "Amanalco Trail",
+    "tipo": "Carrera",
+    "distancias": ["10km, 20km, 35km"],
+    "lugar": "Amanalco",
+    "estado": "Estado de México",
+    "fecha": "27/6/2025",
+    "videoUrl":"https://www.youtube.com/embed/OhLDhuR0lB0?si=stw7aALO6g7_IFFs"
+  },
+  {
+    "id": 33,
+    "nombre": "El chico trail fest",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km, 16km, 25km"],
+    "lugar": "Mineral del Chico",
+    "estado": "Hidalgo",
+    "fecha": "6/7/2025",
+    "videoUrl":"https://www.youtube.com/embed/i_RRFJOOgCA?si=oICDuG-LKBAMPflI"
+  },
+  {
+    "id": 34,
+    "nombre": "Utra Tequila",
+    "tipo": "Carrera",
+    "distancias": ["15km, 8km, 41km, 60km"],
+    "lugar": "Tequila",
+    "estado": "Jalisco",
+    "fecha": "6/7/2025",
+    "videoUrl":"https://www.youtube.com/embed/sQLbxNCo7g8?si=harNK3wOFojwSU4G" 
+  },
+  {
+    "id": 35,
+    "nombre": "Utra Cohahuila",
+    "tipo": "Carrera",
+    "distancias": ["12km, 30km, 83km, 50km, 100km, 163km"],
+    "lugar": "Arteaga",
+    "estado": "Cohahuila",
+    "fecha": "12/7/2025",
+    "videoUrl":"https://www.youtube.com/embed/4oqKwTx73KY?si=55wWLtfHLpimcQHS"
+  },
+  {
+    "id": 36,
+    "nombre": "Cadereyta",
+    "tipo": "Carrera",
+    "distancias": ["8km, 11km, 15km, 22km"],
+    "lugar": "Cadereyta",
+    "estado": "Querétaro",
+    "fecha": "10/8/2025",
+    "videoUrl":"https://www.youtube.com/embed/Uz_Ek_jEmWc?si=0d-En7vEPPnpHbcU"
+  },
+  {
+    "id": 37,
+    "nombre": "Bosque de niebla",
+    "tipo": "Carrera",
+    "distancias": ["8km, 18km, 30km"],
+    "lugar": "Amealco",
+    "estado": "Querétaro",
+    "fecha": "18/8/2025",
+    "videoUrl":"https://www.youtube.com/embed/0yQtyB0mYHs?si=LjtdEh2Mfa5vGsby"
+  },
+  {
+    "id": 38,
+    "nombre": "Ultra trail Ajusco",
+    "tipo": "Carrera",
+    "distancias": ["10km, 21km, 35km"],
+    "lugar": "Ajusco",
+    "estado": "CDMX",
+    "fecha": "30/8/2025",
+    "videoUrl":"https://www.youtube.com/embed/E6d76s_QApE?si=6roxHVcg8hbMH-Ki" 
+  },
+  {
+    "id": 39,
+    "nombre": "Trans navajas",
+    "tipo": "Carrera",
+    "distancias": ["12km, 20km, 40km, 80km"],
+    "lugar": "Sierra de las Navajas",
+    "estado": "Hidalgo",
+    "fecha": "6/9/2025",
+    "videoUrl":"https://www.youtube.com/embed/QTOWGK7eGAI?si=x3s8Z-owLtqmtC2r" 
+  },
+  {
+    "id": 40,
+    "nombre": "Tune Up Trail Ajusco",
+    "tipo": "Carrera",
+    "distancias": ["21km, 10km, 5km"],
+    "lugar": "Ajusco",
+    "estado": "CDMX",
+    "fecha": "7/9/2025",
+    "videoUrl":"https://www.youtube.com/embed/_3gWKGIm78E?si=udQCIiK-0bw-X6_W" 
+  },
+  {
+    "id": 41,
+    "nombre": "Ultra trail Tapalpa",
+    "tipo": "Carrera",
+    "distancias": ["10km, 6km, 15km, 30km, 50km"],
+    "lugar": "Tapalpa",
+    "estado": "Jalisco",
+    "fecha": "20/9/2025",
+    "videoUrl":"https://www.youtube.com/embed/NZrf6A0kWss?si=IDDRT6gmHVw8FGs_"
+  },
+  {
+    "id": 42,
+    "nombre": "Ixtapa FINAL GOLDEN TRAIL SERIES MEXICO",
+    "tipo": "Carrera",
+    "distancias": ["5km, 12km, 17km, 25km"],
+    "lugar": "Ixtapa Zihuatanejo",
+    "estado": "Guerrero",
+    "fecha": "28/9/2025",
+    "videoUrl":"https://www.youtube.com/embed/CTKZFqCrIJE?si=rL2REydlzrEMymSh"
+  },
+  {
+    "id": 43,
+    "nombre": "Reto Cerro Grande",
+    "tipo": "Carrera",
+    "distancias": ["6km, 10km, 16km, 23km"],
+    "lugar": "Tequisquiapán",
+    "estado": "Querétaro",
+    "fecha": "20/10/2025",
+    "videoUrl":"https://www.youtube.com/embed/VPpGuRQ1uMk?si=rJ5VplmXsMaNIIyc"
+  },
+  {
+    "id": 44,
+    "nombre": "Trail Nocturno Ajusco",
+    "tipo": "Carrera",
+    "distancias": ["10km, 21km"],
+    "lugar": "Ajusco",
+    "estado": "CDMX",
+    "fecha": "26/10/2025",
+    "videoUrl":"https://www.youtube.com/embed/o1EJBoUDHqs?si=--oqb2ZsIzjADUB_"
+  },
+  {
+    "id": 45,
+    "nombre": "Las Ánimas",
+    "tipo": "Carrera",
+    "distancias": ["10km, 20km"],
+    "lugar": "El Zembo",
+    "estado": "Hidalgo",
+    "fecha": "26/10/2025",
+    "videoUrl":"https://www.youtube.com/embed/ZKdzhTziP5A?si=4pM5Xjrr_jfuzctx"
+  },
+  {
+    "id": 46,
+    "nombre": "Tune Up Trail La marquesa",
+    "tipo": "Carrera",
+    "distancias": ["21km, 10km, 5km"],
+    "lugar": "la marquesa",
+    "estado": "Estado de México",
+    "fecha": "10/11/2025",
+    "videoUrl":"https://www.youtube.com/embed/vmx-znpZzCo?si=XnPLO08PgeCgY9j7"
+  },
+  {
+    "id": 47,
+    "nombre": "Tehuacán Infinity Loop",
+    "tipo": "Carrera",
+    "distancias": ["2km"],
+    "lugar": "Puebla",
+    "estado": "Puebla",
+    "fecha": "1/12/2025",
+    "videoUrl":"https://www.youtube.com/embed/LIRHD5yYbWI?si=oAD-bfM93RbTjA_L"
+  },
+  {
+    "id": 48,
+    "nombre": "Spartan Trail Campeche",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km"],
+    "lugar": "Campeche",
+    "estado": "Campeche",
+    "fecha": "10/12/2025",
+    "videoUrl":"https://www.youtube.com/embed/mae5hKTyWj4?si=pvexY3R-_kfDKofk"
+  }
+]

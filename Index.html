@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--font-family-->
-  
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
       rel="stylesheet"
@@ -16,36 +17,47 @@
     <link rel="stylesheet" type="text/css" href="/css/stilos.css" />
     <link rel="stylesheet" type="text/css" href="/css/modal.css" />
     <link rel="stylesheet" type="text/css" href="/css/video.css" />
-
-    <title>"3era Entrega"</title>
+    <title>"Encuentra tu carrera"</title>
   </head>
 
   <body>
-    <!-- Header con imagen de fondo -->
-    <!-- <header class="header">
-      <div class="header-content">
-        <h1>Carreras en México</h1>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/images/logo.png" alt="Run Finder Logo" />
       </div>
-    </header> -->
+      <ul class="nav-links">
+        <li><a href="#comunidad">Comunidad</a></li>
+        <li><a href="#expertos">Expertos</a></li>
+        <li><a href="#nutricion">Nutrición</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li class="login"><a href="#login">Inicio de Sesión</a></li>
+      </ul>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
 
-
-
-
- <!-- Sección del carrusel -->
-<section class="carousel-section">
-  <div class="carousel">
-    <div class="carousel-images">
-      <img src="/images/hero-1.jpg" alt="Imagen de carrera en desafío en las nubes" class="carousel-image active" />
-      <img src="/images/hero2.jpg" alt="Imagen 2" class="carousel-image" />
-      <img src="/images/hero3.jpg" alt="Imagen 3" class="carousel-image" />
-    </div>
-    <div class="carousel-text">
-      <p id="carousel-text">Carreras ULTRA en México</p>
-    </div>
-  </div>
-</section>
-
-   
+    <!-- Sección del carrusel -->
+    <section class="carousel-section">
+      <div class="carousel">
+        <div class="carousel-images">
+          <img
+            src="/images/hero-1.jpg"
+            alt="Imagen de carrera en desafío en las nubes"
+            class="carousel-image active"
+          />
+          <img src="/images/hero2.jpg" alt="Imagen 2" class="carousel-image" />
+          <img src="/images/hero3.jpg" alt="Imagen 3" class="carousel-image" />
+        </div>
+        <div class="carousel-text">
+          <p id="carousel-text">Carreras ULTRA en México</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Sección de estadísticas -->
     <section class="stats-section">
@@ -65,161 +77,153 @@
       </div>
     </section>
 
-     <!-- Barra de búsqueda -->
-     <section class="search-section">
+    <!-- Barra de búsqueda -->
+    <section class="search-section">
       <div class="search-container">
         <input
-        type="text"
-        id="location-input"
-        placeholder="Escoge el lugar de tu preferencia"
-        autocomplete="off"
-        onfocus="showDropdown()"
-      />
-      <ul id="location-list" class="dropdown">
-        <!-- Opciones de lugares -->
-        <li onclick="selectLocation('Aguascalientes')">Aguascalientes</li>
-        <li onclick="selectLocation('Baja California')">Baja California</li>
-        <li onclick="selectLocation('Baja California Sur')">Baja California Sur</li>
-        <li onclick="selectLocation('Campeche')">Campeche</li>
-        <li onclick="selectLocation('Chiapas')">Chiapas</li>
-        <li onclick="selectLocation('Chihuahua')">Chihuahua</li>
-        <li onclick="selectLocation('Coahuila de Zaragoza')">Coahuila de Zaragoza</li>
-        <li onclick="selectLocation('Colima')">Colima</li>
-        <li onclick="selectLocation('Ciudad de México')">Ciudad de México</li>
-        <li onclick="selectLocation('Durango')">Durango</li>
-        <li onclick="selectLocation('Guanajuato')">Guanajuato</li>
-        <li onclick="selectLocation('Guerrero')">Guerrero</li>
-        <li onclick="selectLocation('Hidalgo')">Hidalgo</li>
-        <li onclick="selectLocation('Jalisco')">Jalisco</li>
-        <li onclick="selectLocation('México')">México</li>
-        <li onclick="selectLocation('Michoacán de Ocampo')">Michoacán de Ocampo</li>
-        <li onclick="selectLocation('Morelos')">Morelos</li>
-        <li onclick="selectLocation('Nayarit')">Nayarit</li>
-        <li onclick="selectLocation('Nuevo León')">Nuevo León</li>
-        <li onclick="selectLocation('Oaxaca')">Oaxaca</li>
-        <li onclick="selectLocation('Puebla')">Puebla</li>
-        <li onclick="selectLocation('Querétaro')">Querétaro</li>
-        <li onclick="selectLocation('Quintana Roo')">Quintana Roo</li>
-        <li onclick="selectLocation('San Luis Potosí')">San Luis Potosí</li>
-        <li onclick="selectLocation('Sinaloa')">Sinaloa</li>
-        <li onclick="selectLocation('Sonora')">Sonora</li>
-        <li onclick="selectLocation('Tabasco')">Tabasco</li>
-        <li onclick="selectLocation('Tamaulipas')">Tamaulipas</li>
-        <li onclick="selectLocation('Tlaxcala')">Tlaxcala</li>
-        <li onclick="selectLocation('Veracruz de Ignacio de la Llave')">Veracruz de Ignacio de la Llave</li>
-        <li onclick="selectLocation('Yucatán')">Yucatán</li>
-        <li onclick="selectLocation('Zacatecas')">Zacatecas</li>
-      </ul>
-      <button id="search-button">Buscar</button>
+          type="text"
+          id="location-input"
+          placeholder="Escoge el lugar de tu preferencia"
+          autocomplete="off"
+          onfocus="showDropdown()"
+        />
+        <ul id="location-list" class="dropdown">
+          <!-- Opciones de lugares -->
+          <li onclick="selectLocation('Aguascalientes')">Aguascalientes</li>
+          <li onclick="selectLocation('Baja California')">Baja California</li>
+          <li onclick="selectLocation('Baja California Sur')">
+            Baja California Sur
+          </li>
+          <li onclick="selectLocation('Campeche')">Campeche</li>
+          <li onclick="selectLocation('Chiapas')">Chiapas</li>
+          <li onclick="selectLocation('Chihuahua')">Chihuahua</li>
+          <li onclick="selectLocation('Coahuila de Zaragoza')">
+            Coahuila de Zaragoza
+          </li>
+          <li onclick="selectLocation('Colima')">Colima</li>
+          <li onclick="selectLocation('Durango')">Durango</li>
+          <li onclick="selectLocation('Guanajuato')">Guanajuato</li>
+          <li onclick="selectLocation('Guerrero')">Guerrero</li>
+          <li onclick="selectLocation('Hidalgo')">Hidalgo</li>
+          <li onclick="selectLocation('Jalisco')">Jalisco</li>
+          <li onclick="selectLocation('Estado de México')">Estado de México</li>
+          <li onclick="selectLocation('CDMX')">CDMX</li>
+          <li onclick="selectLocation('Michoacán')">Michoacán</li>
+          <li onclick="selectLocation('Morelos')">Morelos</li>
+          <li onclick="selectLocation('Nayarit')">Nayarit</li>
+          <li onclick="selectLocation('Nuevo León')">Nuevo León</li>
+          <li onclick="selectLocation('Oaxaca')">Oaxaca</li>
+          <li onclick="selectLocation('Puebla')">Puebla</li>
+          <li onclick="selectLocation('Querétaro')">Querétaro</li>
+          <li onclick="selectLocation('Quintana Roo')">Quintana Roo</li>
+          <li onclick="selectLocation('San Luis Potosí')">San Luis Potosí</li>
+          <li onclick="selectLocation('Sinaloa')">Sinaloa</li>
+          <li onclick="selectLocation('Sonora')">Sonora</li>
+          <li onclick="selectLocation('Tabasco')">Tabasco</li>
+          <li onclick="selectLocation('Tamaulipas')">Tamaulipas</li>
+          <li onclick="selectLocation('Tlaxcala')">Tlaxcala</li>
+          <li onclick="selectLocation('Veracruz')">Veracruz</li>
+          <li onclick="selectLocation('Yucatán')">Yucatán</li>
+          <li onclick="selectLocation('Zacatecas')">Zacatecas</li>
+        </ul>
+        <button id="search-button">Buscar</button>
       </div>
     </section>
 
-
-    
     <!-- Sección de tarjetas -->
     <section class="cards-section">
       <div class="cards-container" id="cards-container">
-
-    <!-- Aquí se inyectarán las tarjetas dinámicamente -->
-        
-        <!-- <div class="card">
-          <img src="/images/image-placeholder.jpg" alt="Lugar de México" />
-          <h3>Lugares de México</h3>
-          <p>Chapala, Jalisco</p>
-          <p>Precio: $110,000</p>
-          <p>Distancias:</p>
-          <button>Quiero Información</button>
-        </div> -->
-        <!-- Repite el bloque anterior para más tarjetas -->
-
-        
+        <!-- Las tarjetas se inyectarán dinámicamente aquí -->
       </div>
     </section>
 
-
-<!-- Modal para mostrar la información de la carrera -->
-<div id="raceModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <iframe id="raceVideo"
-     width="560" 
-    height="315" src="https://www.youtube.com/embed/VYw1U8ezyFI?si=cDtV5iWDPHtAX3vj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <h2 id="nombreCarrera">Nombre de la carrera</h2>
-    <p id="fechaCarrera">Fecha</p>
-    <p id="distanciasCarrera">Distancias</p>
-    <h3 id="diasFaltantes">Aquí van los días restantes para la carrera</h3>
-    <button id="">Inscribirme</button>
-  </div>
-</div>
-
-
-    
+    <!-- Modal para mostrar la información de la carrera -->
+    <div id="raceModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe
+          id="raceVideo"
+          width="560"
+          height="315"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <h2 id="nombreCarrera">Nombre de la carrera</h2>
+        <p id="fechaCarrera">Fecha</p>
+        <p id="distanciasCarrera">Distancias</p>
+        <h3 id="diasFaltantes">Aquí van los días restantes para la carrera</h3>
+        <button>Inscribirme</button>
+      </div>
+    </div>
 
     <!-- footer -->
-    <div class="footer">
-      <div class="heading">
-        <h2>Roberto<sup>3</sup>RUIZ</h2>
-      </div>
-      <div class="content">
-        <div class="services">
-          <h4>Run all the time</h4>
+       <!-- footer -->
+       <div class="footer">
+        <div class="heading">
+          <h2>Roberto<sup>3</sup>RUIZ</h2>
+        </div>
+        <div class="content">
+          <div class="services">
+            <h4>Run all the time</h4>
+            
           
-        
-          <p><a href="#">Marcaje</a></p>
+            <p><a href="#">Marcaje</a></p>
+          </div>
+          <div class="social-media">
+            <h4>Social</h4>
+            <p>
+              <a href="#"
+                ><i class="fab fa-linkedin"></i> Linkedin</a
+              >
+            </p>
+            <p>
+              <a href="#"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </p>
+            <p>
+              <a href="https://github.com/roberto3ruiz"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </p>
+            <p>
+              <a href="https://www.facebook.com/roberto3ruiz"
+                ><i class="fab fa-facebook"></i> Facebook</a
+              >
+            </p>
+            <p>
+              <a href="https://www.instagram.com/roberto3ruiz"
+                ><i class="fab fa-instagram"></i> Instagram</a
+              >
+            </p>
+          </div>
+          <div class="links">
+            <h4>Quick links</h4>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Blogs</a></p>
+            <p><a href="#">Contact</a></p>
+          </div>
+          <div class="details">
+            <h4 class="address">Address</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Cupiditate, qui!
+            </p>
+            <h4 class="mobile">Mobile</h4>
+            <p><a href="#">+00-55555*****</a></p>
+            <h4 class="mail">Email</h4>
+            <p><a href="#">gmail.com</a></p>
+          </div>
         </div>
-        <div class="social-media">
-          <h4>Social</h4>
-          <p>
-            <a href="#"
-              ><i class="fab fa-linkedin"></i> Linkedin</a
-            >
-          </p>
-          <p>
-            <a href="#"
-              ><i class="fab fa-twitter"></i> Twitter</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/roberto3ruiz"
-              ><i class="fab fa-github"></i> Github</a
-            >
-          </p>
-          <p>
-            <a href="https://www.facebook.com/roberto3ruiz"
-              ><i class="fab fa-facebook"></i> Facebook</a
-            >
-          </p>
-          <p>
-            <a href="https://www.instagram.com/roberto3ruiz"
-              ><i class="fab fa-instagram"></i> Instagram</a
-            >
-          </p>
-        </div>
-        <div class="links">
-          <h4>Quick links</h4>
-          <p><a href="#">Home</a></p>
-          <p><a href="#">About</a></p>
-          <p><a href="#">Blogs</a></p>
-          <p><a href="#">Contact</a></p>
-        </div>
-        <div class="details">
-          <h4 class="address">Address</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur <br />
-            adipisicing elit. Cupiditate, qui!
-          </p>
-          <h4 class="mobile">Mobile</h4>
-          <p><a href="#">+00-55555*****</a></p>
-          <h4 class="mail">Email</h4>
-          <p><a href="#">gmail.com</a></p>
-        </div>
-      </div>
-      <footer>
-        <script src="/js/carrusel.js" defer></script>
-        <script src="/js/modal.js" defer></script>
-        <script src="/js/script.js" defer></script>
-        <script src="js/effects.js" defer></script>
-        <script src="js/races.js" defer></script>
-        <script src="js/search.js" defer></script>
+        <footer>
+
+    <!-- Scripts -->
+    <script src="/js/carrusel.js" defer></script>
+    <script src="/js/modal.js" defer></script>
+    <script src="/js/script.js" defer></script>
+    <script src="js/effects.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/hamburguesa.js" defer></script>
   </body>
 </html>
