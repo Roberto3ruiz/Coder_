@@ -330,7 +330,30 @@ Aqui va la seccion de cards */
   }
 }
 
- 
+ /* MODAL*/
+#diasFaltantes {
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 24px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  color: red;
+  margin: 20px 0; /* Agrega un margen para separar el texto de otros elementos */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Aqui va el footer */
 
 
@@ -343,7 +366,7 @@ Aqui va la seccion de cards */
   width: 100%;
   background-color: black;
   color: white;
-  padding: 20px 0; /* Agrega un poco de espacio alrededor del footer */
+  padding: 10px 0; /* Agrega un poco de espacio alrededor del footer */
   text-align: center;
 }
   
@@ -360,7 +383,7 @@ Aqui va la seccion de cards */
   .footer .content {
     display: flex;
     justify-content: space-evenly;
-    margin: 1.5rem;
+    margin: 1rem;
   }
   
   .footer .content p {

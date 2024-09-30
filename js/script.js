@@ -24,7 +24,7 @@ function renderCards(eventos) {
   eventos.forEach((evento, index) => {
     const card = `
       <div class="card">
-        <img src="/images/image-placeholder.jpg" alt="${evento.nombre}" />
+        <img src="${evento.imagen}" alt="${evento.nombre}" />
         <h3>${evento.nombre}</h3>
         <p>${evento.lugar}, ${evento.estado}</p>
         <p>Distancias: ${evento.distancias.join(", ")}</p>
@@ -59,21 +59,3 @@ fetch("/data/races.json")
   .catch((error) =>
     console.error("Error al cargar los datos iniciales:", error)
   );
-
-// Función de búsqueda y renderizado
-function searchAndRender(locationInput) {
-  const filteredEvents = allEvents.filter(
-    (evento) =>
-      evento.lugar.toLowerCase() === locationInput ||
-      evento.estado.toLowerCase() === locationInput
-  );
-  renderCards(filteredEvents);
-}
-
-// Escuchador de eventos para el botón de búsqueda
-document.getElementById("search-button").addEventListener("click", () => {
-  const locationInput = document
-    .getElementById("location-input")
-    .value.toLowerCase();
-  searchAndRender(locationInput);
-});

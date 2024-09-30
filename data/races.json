@@ -7,6 +7,7 @@
     "lugar": "Santiago",
     "estado": "Nuevo León",
     "fecha": "13/02/2025",
+    "imagen":"/images/logo.png",
     "videoUrl": "https://www.youtube.com/embed/zVW5NxU9PqY?si=MhCdOHZTpJGYfz3Y"
   },
   {
@@ -17,6 +18,7 @@
     "lugar": "Xallitic",
     "estado": "Veracruz",
     "fecha": "13/01/2025",
+    "imagen":"/images/logo.png",
     "videoUrl": "https://www.youtube.com/embed/tv9OiVkdx0w?si=fqaShYOWo5Nak-nH"
   },
   {
@@ -27,6 +29,7 @@
     "lugar": "Villa del Carbón",
     "estado": "Edo. De México",
     "fecha": "14/1/2025",
+    "imagen":"/images/logo.png",
     "videoUrl": "https://www.youtube.com/embed/UAbg3I-ffLg?si=C8XLSDUj6nLL-egh"
   },
   {
@@ -37,6 +40,7 @@
     "lugar": " Pahuatlán",
     "estado": "Puebla",
     "fecha": "20/1/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/5C0uve3KvuY?si=v3VjMJ0Lnt2NyUhj" 
   },
   {
@@ -47,6 +51,7 @@
     "lugar": "Huauchinango",
     "estado": "Puebla",
     "fecha": "26/1/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/OojTz7l-GKI?si=Lk0CwP-sFY8EJ2Sr" 
   },
   {
@@ -57,6 +62,7 @@
     "lugar": "San Rafael",
     "estado": "Estado de México",
     "fecha": "28/1/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/j81jWLXfUNw?si=8guXLlr5EcyrvMSF" 
   },
   {
@@ -67,6 +73,7 @@
     "lugar": "Mexicali",
     "estado": "Baja California",
     "fecha": "28/1/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/wCm4h3BNwT8?si=uRdTjE6_HSe3uZLo"
   },
   {
@@ -77,6 +84,7 @@
     "lugar": "Tenacatita",
     "estado": "Jalisco",
     "fecha": "4/2/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/M6CtXaStUsA?si=3s8ZxDqLFQllAdyD"
   },
   {
@@ -87,6 +95,7 @@
     "lugar": "Morelia",
     "estado": "Michoacán",
     "fecha": "11/2/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/NRiuRIPX3RY?si=UvXXmEh-sw-gInjB"
   },
   {
@@ -97,6 +106,7 @@
     "lugar": "Xicotepec",
     "estado": "Puebla",
     "fecha": "17/2/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/tRN7NPz8f6Q?si=3oMZuzLZw_ZXK4AH"
   },
   {
@@ -107,6 +117,7 @@
     "lugar": "San Joaquín",
     "estado": "Querétaro",
     "fecha": "24/2/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/OmkO2HC51TQ?si=xZy5cvbkJacgF63n"
   },
   {
@@ -117,6 +128,7 @@
     "lugar": "Malinche",
     "estado": "Tlaxcala",
     "fecha": "25/2/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/9k9VROSTMmM?si=LdAx_wi2IglLkuDU" 
     },
   {
@@ -127,6 +139,7 @@
     "lugar": "Huachinango",
     "estado": "Puebla",
     "fecha": "1/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/BKeeYZ4WiFc?si=u-caL0HWAmFdBYVX"
   },
   {
@@ -137,6 +150,7 @@
     "lugar": "Bosque de la primavera",
     "estado": "Jalisco",
     "fecha": "2/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/14uKEXX_xfA?si=sPLcBHdp9zf5z3ci"
   },
   {
@@ -147,6 +161,7 @@
     "lugar": "Urique",
     "estado": "Chihuahua",
     "fecha": "3/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/955esa0GYF0?si=FS5SNB1UOqVBJNUH"
   },
   {
@@ -157,6 +172,7 @@
     "lugar": "Villa del Carbón",
     "estado": "Estado de México",
     "fecha": "10/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/--fDdJO3Hnk?si=D1iVOTkw179fIQ42"
   },
   {
@@ -167,6 +183,7 @@
     "lugar": "Puebla",
     "estado": "Puebla",
     "fecha": "16/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/7FRrolEsaRQ?si=dMTHkIC8vDY00ar8"
   },
   {
@@ -177,6 +194,7 @@
     "lugar": "Tijuana",
     "estado": "Baja California",
     "fecha": "17/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/KiNOSaVi31I?si=9-jb90zlm-VF5YjJ"
   },
   {
@@ -187,6 +205,7 @@
     "lugar": "Pico de Orizaba",
     "estado": "Veracruz",
     "fecha": "22/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/YyKuT08JCP4?si=d6_D8ct-JXwrVzlL"
   },
   {
@@ -197,6 +216,7 @@
     "lugar": "Chignahuapan",
     "estado": "Puebla",
     "fecha": "29/3/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/duqz7OoqHNI?si=i9x1jylo8RFMIWzg"
   },
   {
@@ -207,6 +227,7 @@
     "lugar": "Zacatlan",
     "estado": "Puebla",
     "fecha": "13/4/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/Hupy3CW7cyE?si=OlET3MoTAVCIYW4-" 
   },
   {
@@ -217,6 +238,7 @@
     "lugar": "méxico",
     "estado": "Estado de México",
     "fecha": "13/4/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/HPlFL1BrphU?si=f1bT3erFlc8CVYjt"
   },
   {
@@ -227,6 +249,7 @@
     "lugar": "Tlatlauquitepec",
     "estado": "Puebla",
     "fecha": "26/4/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/jSQsFepwRu8?si=emxLtqvCfk53sz2y"
   },
   {
@@ -237,6 +260,7 @@
     "lugar": "San Luis Potosí",
     "estado": "San Luis Potosí",
     "fecha": "4/5/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/gI7f0pEic24?si=dArmrcV8icB5bHIm"
   },
   {
@@ -247,6 +271,7 @@
     "lugar": "Tepatlaxco",
     "estado": "Veracruz",
     "fecha": "11/5/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/BalXBpwktkc?si=xDq7w09cOTSIXyfc" 
   },
   {
@@ -257,6 +282,7 @@
     "lugar": "Villa del Carbón",
     "estado": "Estado de México",
     "fecha": "18/5/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/xz7xa7Dwdb8?si=xdZIGKOKseASRgGv"
   },
   {
@@ -267,6 +293,7 @@
     "lugar": "Orizaba",
     "estado": "Veracruz",
     "fecha": "24/5/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/-7iaSdGwCK4?si=cEIEnuokjpFrv3yr" 
   },
   {
@@ -277,6 +304,7 @@
     "lugar": "temascalcingo",
     "estado": "Querétaro",
     "fecha": "26/5/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/t3MW15n0f6I?si=dz7_NqPLL1yOKEVq"
   },
   {
@@ -287,6 +315,7 @@
     "lugar": "San Matero Tlapiltepec",
     "estado": "Oaxaca",
     "fecha": "10/6/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/FVZaQKhYG-4?si=ykR3boJCkMQ5XyMI" 
   },
   {
@@ -297,6 +326,7 @@
     "lugar": "Coatepec",
     "estado": "Veracruz",
     "fecha": "16/6/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/I6v5g5uB3z4?si=DRW6zZDcRKfiaDj6"
   },
   {
@@ -307,6 +337,7 @@
     "lugar": "Peña de Bernal",
     "estado": "Querétaro",
     "fecha": "22/6/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/HbTUPGU-cpA?si=nEe_wfq97XIiQZCz"
   },
   {
@@ -317,6 +348,7 @@
     "lugar": "Amanalco",
     "estado": "Estado de México",
     "fecha": "27/6/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/OhLDhuR0lB0?si=stw7aALO6g7_IFFs"
   },
   {
@@ -327,6 +359,7 @@
     "lugar": "Mineral del Chico",
     "estado": "Hidalgo",
     "fecha": "6/7/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/i_RRFJOOgCA?si=oICDuG-LKBAMPflI"
   },
   {
@@ -337,6 +370,7 @@
     "lugar": "Tequila",
     "estado": "Jalisco",
     "fecha": "6/7/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/sQLbxNCo7g8?si=harNK3wOFojwSU4G" 
   },
   {
@@ -347,6 +381,7 @@
     "lugar": "Arteaga",
     "estado": "Cohahuila",
     "fecha": "12/7/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/4oqKwTx73KY?si=55wWLtfHLpimcQHS"
   },
   {
@@ -357,6 +392,7 @@
     "lugar": "Cadereyta",
     "estado": "Querétaro",
     "fecha": "10/8/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/Uz_Ek_jEmWc?si=0d-En7vEPPnpHbcU"
   },
   {
@@ -367,6 +403,7 @@
     "lugar": "Amealco",
     "estado": "Querétaro",
     "fecha": "18/8/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/0yQtyB0mYHs?si=LjtdEh2Mfa5vGsby"
   },
   {
@@ -377,6 +414,7 @@
     "lugar": "Ajusco",
     "estado": "CDMX",
     "fecha": "30/8/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/E6d76s_QApE?si=6roxHVcg8hbMH-Ki" 
   },
   {
@@ -387,6 +425,7 @@
     "lugar": "Sierra de las Navajas",
     "estado": "Hidalgo",
     "fecha": "6/9/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/QTOWGK7eGAI?si=x3s8Z-owLtqmtC2r" 
   },
   {
@@ -397,6 +436,7 @@
     "lugar": "Ajusco",
     "estado": "CDMX",
     "fecha": "7/9/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/_3gWKGIm78E?si=udQCIiK-0bw-X6_W" 
   },
   {
@@ -407,6 +447,7 @@
     "lugar": "Tapalpa",
     "estado": "Jalisco",
     "fecha": "20/9/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/NZrf6A0kWss?si=IDDRT6gmHVw8FGs_"
   },
   {
@@ -417,6 +458,7 @@
     "lugar": "Ixtapa Zihuatanejo",
     "estado": "Guerrero",
     "fecha": "28/9/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/CTKZFqCrIJE?si=rL2REydlzrEMymSh"
   },
   {
@@ -427,6 +469,7 @@
     "lugar": "Tequisquiapán",
     "estado": "Querétaro",
     "fecha": "20/10/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/VPpGuRQ1uMk?si=rJ5VplmXsMaNIIyc"
   },
   {
@@ -437,6 +480,7 @@
     "lugar": "Ajusco",
     "estado": "CDMX",
     "fecha": "26/10/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/o1EJBoUDHqs?si=--oqb2ZsIzjADUB_"
   },
   {
@@ -447,6 +491,7 @@
     "lugar": "El Zembo",
     "estado": "Hidalgo",
     "fecha": "26/10/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/ZKdzhTziP5A?si=4pM5Xjrr_jfuzctx"
   },
   {
@@ -457,6 +502,7 @@
     "lugar": "la marquesa",
     "estado": "Estado de México",
     "fecha": "10/11/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/vmx-znpZzCo?si=XnPLO08PgeCgY9j7"
   },
   {
@@ -467,6 +513,7 @@
     "lugar": "Puebla",
     "estado": "Puebla",
     "fecha": "1/12/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/LIRHD5yYbWI?si=oAD-bfM93RbTjA_L"
   },
   {
@@ -477,6 +524,29 @@
     "lugar": "Campeche",
     "estado": "Campeche",
     "fecha": "10/12/2025",
+    "imagen":"/images/logo.png",
     "videoUrl":"https://www.youtube.com/embed/mae5hKTyWj4?si=pvexY3R-_kfDKofk"
+  },
+  {
+    "id": 49,
+    "nombre": "Ultra trail la BASTARDA",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km"],
+    "lugar": "León",
+    "estado": "Guanajuato",
+    "fecha": "30/08/2025",
+    "imagen":"/images/logo.png",
+    "videoUrl":"https://www.youtube.com/embed/QKA80nAYPOU?si=VM1lbYe8KSt3WMWk"
+  },
+  {
+    "id": 50,
+    "nombre": "Sierra de Laurel Ultratrail",
+    "tipo": "Carrera",
+    "distancias": ["5km, 10km"],
+    "lugar": "Calvillo, Aguascalientes",
+    "estado": "Aguascalientes",
+    "fecha": "30/08/2025",
+    "imagen":"/images/logo.png",
+    "videoUrl":"https://www.youtube.com/embed/hvw-Pb-FWzU?si=oLnUVYOu9jrQq-bi" 
   }
 ]
